@@ -1742,7 +1742,11 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 	padding: 40px 0;
 }
 
-
+.container {
+	max-width:100%;
+	padding-right: 0px;
+	padding-left: 0px;
+}
 
 /* Subpages 
 ================================================== */
