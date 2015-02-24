@@ -29,16 +29,23 @@ jQuery(function($) {
   /* ----------------------------------------------------------- */
 
    $(function(){
-      
       $('a.page-scroll').bind('click', function(event) {
-         var $anchor = $(this);
-         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top -62
-         }, 1000, 'easeInOutExpo');
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top -62
+        }, 1000, 'easeInOutExpo');
          event.preventDefault();
       });
       $('body').scrollspy({ target: '#header', offset:72 });
    });
+ 
+  $(window).scroll(function() {
+    if(!$('#mainNav li:first-child').hasClass('active')){
+      $('#headerContent').addClass('navbar-inverse');
+    }else{
+      $('#headerContent').removeClass('navbar-inverse');
+    };
+  });
 
    if (window.location.hash){
      $('html, body').stop().animate({
@@ -46,7 +53,6 @@ jQuery(function($) {
     }, 1000, 'easeInOutExpo');
      event.preventDefault();
    }
-
 
   /* ----------------------------------------------------------- */
   /*  Main slideshow
