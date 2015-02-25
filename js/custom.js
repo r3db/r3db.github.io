@@ -23,6 +23,11 @@
 jQuery(function($) {
   "use strict";
 
+$('#headerContent').hover(function() {
+    $(this).addClass('navbar-inverse');
+}, function() {
+    $(this).removeClass('navbar-inverse');
+});
 
   /* ----------------------------------------------------------- */
   /*  Header
