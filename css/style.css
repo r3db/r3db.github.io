@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a{
-	color: #ee3124;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -514,8 +514,8 @@ a.navbar-brand{
 }
 
 .navbar-toggle{
-	background: #ee3124;
-	border-radius: 0;
+	background: #FF8611;
+	border-color: #333;
 	margin-right: 5px;
 }
 
@@ -549,7 +549,7 @@ ul.navbar-nav > li.active{
 
 ul.navbar-nav li.active > a,
 ul.navbar-nav > li.active.dropdown.open{
-	background: #2D7FC6;
+	background: #FF8611;
 }
 
 ul.navbar-nav li.active > .dropdown-menu > li.active > a{
@@ -632,6 +632,22 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 .nav .open>a:focus{
 	background: transparent;
 	border:0;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:hover, 
+.navbar-inverse .navbar-nav>.active>a:focus {
+color: #fff;
+background-color: #FF8611;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: #fff;
+}
+
+.navbar-inverse {
+background-color: #444E58;
+border-color: #080808;
 }
 
 /* Slideshow
@@ -1949,7 +1965,7 @@ h3.page-content-title{
 
 .widget-tab .nav-tabs>li.active>a{
 	color: #fff;
-	background: #2D7FC6;
+	background: #17AEE2;
 	border: 1px solid transparent;
 }
 
@@ -2465,6 +2481,11 @@ h3.page-content-title{
 	/* Portfolio */
 	#isotope .col-sm-3{
 		width: 100%;
+	}
+
+	.navbar
+	{
+		background: #444E58;
 	}
 }
 
