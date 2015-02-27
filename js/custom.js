@@ -40,9 +40,9 @@ jQuery(function($) {
  
   $(window).scroll(function() {
     if(!$('#mainNav li:first-child').hasClass('active')){
-      $('#headerContent').addClass('navbar-inverse');
+      $('#headerContent').addClass('navbar-second');
     }else{
-      $('#headerContent').removeClass('navbar-inverse');
+      $('#headerContent').removeClass('navbar-second');
     };
   });
 
