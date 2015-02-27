@@ -2357,7 +2357,7 @@ h3.page-content-title{
 	 }
 
 	 .navbar-nav .open .dropdown-menu{
-	 	background-color: #000;
+	 	background-color: #EB6841;
 	 	border-radius: 0;
 	 	padding: 0;
 	 }
@@ -2369,6 +2369,27 @@ h3.page-content-title{
 	 ul.navbar-nav li.search{
 	 	display: none;
 	 }
+
+     .navbar-second 
+     .navbar-nav>.active>a
+     {
+        color: #fff;
+        background-color: #EB6841;
+     }
+
+     .navbar-second 
+     .navbar-nav>.active>a:hover
+     {
+        color: #fff;
+        background-color: #EB6841;
+     }
+
+     .navbar-second 
+     .navbar-nav>.active>a:focus 
+     {
+        color: #fff;
+        background-color: #EB6841;
+     }
 
 
 	/* Slideshow */
