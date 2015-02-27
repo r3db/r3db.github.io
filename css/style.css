@@ -514,7 +514,7 @@ a.navbar-brand{
 }
 
 .navbar-toggle{
-	background: #FF8611;
+	background: #EB6841;
 	border-color: #333;
 	margin-right: 5px;
 }
@@ -549,7 +549,7 @@ ul.navbar-nav > li.active{
 
 ul.navbar-nav li.active > a,
 ul.navbar-nav > li.active.dropdown.open{
-	background: #FF8611;
+	background: #EB6841;
 }
 
 ul.navbar-nav li.active > .dropdown-menu > li.active > a{
@@ -646,7 +646,7 @@ color: #fff;
 }
 
 .navbar-inverse {
-background-color: #444E58;
+background-color: #00A0B0;
 border-color: #080808;
 }
 
@@ -2485,7 +2485,7 @@ h3.page-content-title{
 
 	.navbar
 	{
-		background: #444E58;
+		background: #00A0B0;
 	}
 }
 
@@ -2635,4 +2635,8 @@ h3.page-content-title{
     transition: all 1s ease;
 
     opacity: 0.9;
+}
+
+.navbar-collapse {
+	max-height: 400px;
 }
