@@ -1742,7 +1742,11 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 	padding: 40px 0;
 }
 
-
+.container {
+	max-width:100%;
+	padding-right: 0px;
+	padding-left: 0px;
+}
 
 /* Subpages 
 ================================================== */
@@ -2600,4 +2604,12 @@ h3.page-content-title{
 	.scroll-up img{
 		margin-top: 14px;
 	}
+}
+
+#headerContent
+{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
