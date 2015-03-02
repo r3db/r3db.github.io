@@ -93,8 +93,8 @@ section {
 	position: relative;
 }
 
-.no-padding{
-	padding: 0;
+.top-padding{
+	padding-top: 100px;
 }
 
 .gap-40 {
@@ -531,7 +531,7 @@ ul.nav.navbar-nav li{
 }
 
 ul.navbar-nav li a{
-	color: #fff;
+	color: #000;
 }
 
 ul.navbar-nav li a:hover{
