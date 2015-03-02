@@ -45,6 +45,10 @@ jQuery(function($) {
       $('#headerContent').removeClass('navbar-second');
     };
   });
+  
+   $('.page-scroll').click(function() {
+       $(".navbar-toggle").click();
+   });
 
    if (window.location.hash){
      $('html, body').stop().animate({
