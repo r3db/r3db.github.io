@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a{
-	color: #ee3124;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -514,8 +514,8 @@ a.navbar-brand{
 }
 
 .navbar-toggle{
-	background: #ee3124;
-	border-radius: 0;
+	background: #EB6841;
+	border-color: #333;
 	margin-right: 5px;
 }
 
@@ -549,7 +549,7 @@ ul.navbar-nav > li.active{
 
 ul.navbar-nav li.active > a,
 ul.navbar-nav > li.active.dropdown.open{
-	background: #2D7FC6;
+	background: #EB6841;
 }
 
 ul.navbar-nav li.active > .dropdown-menu > li.active > a{
@@ -632,6 +632,22 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 .nav .open>a:focus{
 	background: transparent;
 	border:0;
+}
+
+.navbar-second .navbar-nav>.active>a, 
+.navbar-second .navbar-nav>.active>a:hover, 
+.navbar-second .navbar-nav>.active>a:focus {
+color: #fff;
+background-color: #EB6841;
+}
+
+.navbar-second .navbar-nav>li>a {
+color: #fff;
+}
+
+.navbar-second {
+background-color: #00A0B0;
+border-color: #080808;
 }
 
 /* Slideshow
@@ -1949,7 +1965,7 @@ h3.page-content-title{
 
 .widget-tab .nav-tabs>li.active>a{
 	color: #fff;
-	background: #2D7FC6;
+	background: #17AEE2;
 	border: 1px solid transparent;
 }
 
@@ -2341,7 +2357,7 @@ h3.page-content-title{
 	 }
 
 	 .navbar-nav .open .dropdown-menu{
-	 	background-color: #000;
+	 	background-color: #EB6841;
 	 	border-radius: 0;
 	 	padding: 0;
 	 }
@@ -2353,6 +2369,27 @@ h3.page-content-title{
 	 ul.navbar-nav li.search{
 	 	display: none;
 	 }
+
+     .navbar-second 
+     .navbar-nav>.active>a
+     {
+        color: #fff;
+        background-color: #EB6841;
+     }
+
+     .navbar-second 
+     .navbar-nav>.active>a:hover
+     {
+        color: #fff;
+        background-color: #EB6841;
+     }
+
+     .navbar-second 
+     .navbar-nav>.active>a:focus 
+     {
+        color: #fff;
+        background-color: #EB6841;
+     }
 
 
 	/* Slideshow */
@@ -2465,6 +2502,11 @@ h3.page-content-title{
 	/* Portfolio */
 	#isotope .col-sm-3{
 		width: 100%;
+	}
+
+	.navbar
+	{
+		background: #00A0B0;
 	}
 }
 
@@ -2612,4 +2654,20 @@ h3.page-content-title{
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
+
+    opacity: 0.9;
+}
+
+.navbar-collapse {
+	max-height: 400px;
+}
+
+#mobile-indicator {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    #mobile-indicator {
+        display: block;
+    }
 }
