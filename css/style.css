@@ -2661,3 +2661,13 @@ h3.page-content-title{
 .navbar-collapse {
 	max-height: 400px;
 }
+
+#mobile-indicator {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    #mobile-indicator {
+        display: block;
+    }
+}
