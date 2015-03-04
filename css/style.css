@@ -2519,9 +2519,14 @@ h3.page-content-title{
 		background: #fff;
 	}
 
-    .navbar-header{
-        width: 28%;
+    #mobile-indicator {
+        display: block;
     }
+
+    .navbar-brand{
+        width: 200px !important;
+		background-size: contain !important;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
@@ -2595,7 +2600,7 @@ h3.page-content-title{
 
 	/* Logo */
 	.navbar-brand{
-        width: 120px !important;
+        width: 200px !important;
 		background-size: contain !important;
 	}
 
@@ -2678,10 +2683,4 @@ h3.page-content-title{
 
 #mobile-indicator {
     display: none;
-}
-
-@media (max-width: 767px) {
-    #mobile-indicator {
-        display: block;
-    }
 }
