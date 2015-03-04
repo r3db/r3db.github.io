@@ -654,6 +654,24 @@ border-color: #080808;
     max-width: 50%;
 }
 
+#headerContent
+{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+
+    opacity: 0.9;
+}
+
+.navbar-collapse {
+	max-height: 400px;
+}
+
+#mobile-indicator {
+    display: none;
+}
+
 /* Slideshow
 ================================================== */
 
@@ -2665,22 +2683,4 @@ h3.page-content-title{
 	.scroll-up img{
 		margin-top: 14px;
 	}
-}
-
-#headerContent
-{
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-
-    opacity: 0.9;
-}
-
-.navbar-collapse {
-	max-height: 400px;
-}
-
-#mobile-indicator {
-    display: none;
 }
