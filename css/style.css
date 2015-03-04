@@ -2171,6 +2171,10 @@ h3.page-content-title{
 	.dropdown i{
 		display: none;
 	}
+
+    .navbar-header{
+        width: 40%;
+    }
 }
 
 
@@ -2190,6 +2194,10 @@ h3.page-content-title{
 	#main-slide .slider-content h2{
 		font-size: 68px;
 	}
+
+    .navbar-header{
+        width: 30%;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -2312,6 +2320,9 @@ h3.page-content-title{
 		margin-bottom: 30px;
 	}
 
+    .navbar-header{
+        width: 28%;
+    }
 
 }
 
@@ -2505,8 +2516,12 @@ h3.page-content-title{
 
 	.navbar
 	{
-		background: #00A0B0;
+		background: #fff;
 	}
+
+    .navbar-header{
+        width: 28%;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
@@ -2580,7 +2595,7 @@ h3.page-content-title{
 
 	/* Logo */
 	.navbar-brand{
-		width: 120px !important;
+        width: 120px !important;
 		background-size: contain !important;
 	}
 
