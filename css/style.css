@@ -641,9 +641,6 @@ color: #fff;
 background-color: #EB6841;
 }
 
-.navbar-second .navbar-nav>li>a {
-color: #fff;
-}
 
 .navbar-second {
 background-color: #00A0B0;
@@ -665,11 +662,24 @@ border-color: #080808;
 }
 
 .navbar-collapse {
-	max-height: 400px;
+	max-height: 500px;
 }
 
 #mobile-indicator {
     display: none;
+}
+
+.navbar-nav a small, .navbar-nav .inner small {
+display: block;
+padding: 0;
+margin-top: 0;
+text-transform: lowercase;
+font-style: italic;
+font-size: .65em;
+line-height: 1.4em;
+text-align: center;
+white-space: nowrap;
+list-style: none;
 }
 
 /* Slideshow
@@ -2195,7 +2205,7 @@ h3.page-content-title{
 
 	/* Navigation */
 	.navbar-nav>li>a{
-		padding: 21px 24px;
+		padding: 21px 24px 10px;
 	}
 
 	/* Slider */
@@ -2535,6 +2545,10 @@ h3.page-content-title{
         width: 200px !important;
 		background-size: contain !important;
 	}
+
+    .navbar-nav a small, .navbar-nav .inner small {
+        text-align: left;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
