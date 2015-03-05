@@ -710,18 +710,6 @@ border-color: #080808;
 	color: #fff;
 }
 
-.carousel-indicators li{
-	width: 14px !important;
-	height: 14px !important;
-	border: 2px solid #fff !important;
-	margin: 1px !important;
-}
-
-#main-slide .carousel-indicators .active {
-    background-color: #EB6841;
-}
-
-
 #main-slide .carousel-control.left,
 #main-slide .carousel-control.right {
 	opacity: 1;
