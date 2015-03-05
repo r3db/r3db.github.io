@@ -755,10 +755,11 @@ border-color: #080808;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
 	transition: all 500ms ease;
+    opacity: 0.5;
 }
 
 #main-slide .carousel-control i:hover{
-	background: #EB6841;
+	opacity: 1;
 }
 
 
