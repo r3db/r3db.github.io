@@ -730,7 +730,7 @@ border-color: #080808;
 #main-slide .carousel-control .fa-angle-left, 
 #main-slide .carousel-control .fa-angle-right{
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	z-index: 5;
 	display: inline-block;
     border-radius: 50px;
