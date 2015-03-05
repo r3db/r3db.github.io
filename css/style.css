@@ -733,14 +733,15 @@ border-color: #080808;
 	top: 50%;
 	z-index: 5;
 	display: inline-block;
+    border-radius: 50px;
 }
 
 #main-slide .carousel-control .fa-angle-left{
-	left: 0;
+	left: 20px;
 }
 
 #main-slide .carousel-control .fa-angle-right{
-	right: 0;
+	right: 20px;
 }
 
 #main-slide .carousel-control i{
@@ -748,7 +749,7 @@ border-color: #080808;
 	color: #fff;
 	line-height: 36px;
 	font-size: 32px;
-	padding: 15px 20px;
+	padding: 3px 15px;
 	-moz-transition: all 500ms ease;
 	-webkit-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
