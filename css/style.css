@@ -88,13 +88,13 @@ p.lead{
 	font-weight: 500;
 }
 
-section {
+section{
 	padding: 50px 0;
 	position: relative;
 }
 
 .top-padding{
-	padding-top: 133px;
+	padding-top: 15%;
 }
 
 .gap-40 {
@@ -2569,6 +2569,7 @@ h3.page-content-title{
 	#main-slide .item .slider-content{
 		display: none;
 	}
+
     .carousel-control {
         display: none;
     }
