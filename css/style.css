@@ -2566,11 +2566,14 @@ h3.page-content-title{
 	}
 
 	/* Slideshow */
-	#main-slide .item .slider-content .carousel-control{
+	#main-slide .item .slider-content{
 		display: none;
 	}
+    .carousel-control {
+        display: none;
+    }
 
-	/* Newsletter */
+    /* Newsletter */
 	#newsletter{
 		display: none;
 	}
