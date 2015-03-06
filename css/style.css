@@ -2566,7 +2566,7 @@ h3.page-content-title{
 	}
 
 	/* Slideshow */
-	#main-slide .item .slider-content{
+	#main-slide .item .slider-content .carousel-control{
 		display: none;
 	}
 
