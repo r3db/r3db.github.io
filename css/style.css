@@ -651,6 +651,13 @@ border-color: #080808;
     max-width: 50%;
 }
 
+.navbar-second .navbar-nav a small {
+    display: none;
+}
+.navbar-second .navbar-collapse .navbar-nav.navbar-right{
+    margin-top: 0;
+}
+
 #headerContent
 {
     -webkit-transition: all 1s ease;
@@ -2225,6 +2232,10 @@ h3.page-content-title{
 
     .navbar-header{
         width: 30%;
+    }
+
+    .navbar-second .navbar-nav>li>a {
+        padding: 15px 24px 15px;
     }
 }
 
