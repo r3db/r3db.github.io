@@ -2251,6 +2251,10 @@ h3.page-content-title{
 		padding: 21px 12px;
 	}
 
+    .navbar-second .navbar-nav>li>a {
+        padding: 15px 12px 15px;
+    }
+
 	.top-info{
 		padding: 15px 0;
 	}
