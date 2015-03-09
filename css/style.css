@@ -682,6 +682,10 @@ white-space: nowrap;
 list-style: none;
 }
 
+.navbar-collapse .navbar-nav.navbar-right {
+    margin-top: 15px;
+}
+
 /* Slideshow
 ================================================== */
 
