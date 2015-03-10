@@ -637,18 +637,18 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 .navbar-second .navbar-nav>.active>a, 
 .navbar-second .navbar-nav>.active>a:hover, 
 .navbar-second .navbar-nav>.active>a:focus {
-color: #fff;
-background-color: #EB6841;
+    color: #fff;
+    background-color: #EB6841;
 }
 
 
 .navbar-second {
-background-color: #00A0B0;
-border-color: #080808;
+    background-color: #00A0B0;
+    border-color: #080808;
 }
 
-.navbar-second .navbar-header > a.navbar-brand{
-    max-width: 50%;
+.navbar-second .navbar-header > a.navbar-brand img{
+    height: 40px;
 }
 
 .navbar-second .navbar-nav a small {
@@ -2367,6 +2367,9 @@ h3.page-content-title{
         width: 28%;
     }
 
+    .navbar-header > a.navbar-brand img{
+        height: 80px;
+    }
 }
 
 /* Small Devices Potrait */
@@ -2574,6 +2577,10 @@ h3.page-content-title{
     .navbar-nav a small, .navbar-nav .inner small {
         text-align: left;
     }
+
+    .navbar-header > a.navbar-brand img{
+        height: 60px;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
@@ -2642,6 +2649,10 @@ h3.page-content-title{
 	.team-carousel{
 		padding-left: 15px;
 	}
+
+    .navbar-header > a.navbar-brand img{
+        height: 50px;
+    }
 
 }
 
@@ -2716,4 +2727,8 @@ h3.page-content-title{
 	.scroll-up img{
 		margin-top: 14px;
 	}
+
+    .navbar-header > a.navbar-brand img{
+        height: 50px;
+    }
 }
