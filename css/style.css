@@ -525,7 +525,7 @@ a.navbar-brand{
 
 ul.nav.navbar-nav li{
 	background-color: transparent;
-	font-family: "Century Gothic"
+    font-family: "Century Gothic";
 	font-weight: normal;
 	font-size: 18px;
 }
