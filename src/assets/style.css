@@ -27,6 +27,7 @@ a,a:hover {
 	height: 50px;
 }
 
+.navbar { min-width: 300px; }
 .navbar-nav > li > a { font-size: 1em;line-height: 3.6em; }
 .navbar-fixed-top { top: 4px; }
 
