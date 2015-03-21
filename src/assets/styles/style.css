@@ -1,17 +1,25 @@
 /* Generic */
 /* =============================================================== */
-
-body {
-	color:#666;
-	font:300 16px/16px Roboto,Arial,Helvetica;background-color:#fff;
+html, body {
+	color: #666;
+	font: 300 16px/16px Roboto,Arial,Helvetica;
+	background-color: #fff;
 	-webkit-font-smoothing:antialiased;
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
-a { color:#00a9c6; text-decoration:none; }
-a:hover { color:#666; }
+a { color: #00a9c6; text-decoration: none; }
+a:hover { color: #666; }
 
 a,a:hover {
 	outline: none !important;
+}
+
+.main-content {
+	min-height: 100%;
+	position: relative;
 }
 
 /* Header */
@@ -57,7 +65,10 @@ a,a:hover {
 /* =============================================================== */
 
 .content {
-	
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 /* Footer */
