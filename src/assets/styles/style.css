@@ -72,17 +72,19 @@ a,a:hover {
 
 .footer-column {
 	padding-bottom: 12px;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 
 .footer-column-header {
 	font-weight: bold;
-	color: #555;
+	color: #777;
 	padding-bottom: 5px;
 }
 
 .footer-column-link {
 	font-size: 16px;
-	color: #666;
+	color: #777;
 	padding-left: 1px;
 }
 
@@ -91,11 +93,17 @@ a,a:hover {
 	text-decoration: none;
 }
 
-.pictureHolder
-{
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 10px
+.footer-location {
+	float: right;
+	width: 260px;
+}
+
+.footer-location-address {
+	margin-left: 3px;
+}
+
+.icon-padding {
+	padding-left: 13px;
 }
 
 /* Media Specific */
@@ -127,4 +135,5 @@ a,a:hover {
 	.navbar-brand img { height: 37px; }
 	.navbar-toggle { margin-top: 15px; }
 	.footer-column-link { font-size: 11px; }
+	.footer-hide { display: none; }
 }
