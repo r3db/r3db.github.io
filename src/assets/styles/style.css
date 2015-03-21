@@ -18,8 +18,12 @@ a,a:hover {
 /* =============================================================== */
 
 .topbar {
-	background-color:red;
-	height: 50px;
+	background-color: red;
+	height: 4px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 1000;
 }
 
 .navbar { min-width: 300px; }
