@@ -13,8 +13,8 @@ function fix_content_padding() {
 	var threshold = 767;
 
 	var padding_top = width <= threshold
-		? 20
-		: 20;
+		? 0
+		: 0;
 
 	var padding_bottom = width <= threshold
 		? 30
@@ -24,3 +24,13 @@ function fix_content_padding() {
 	e.css('padding-top', height_top + padding_top);
 	e.css('padding-bottom', height_bottom + padding_bottom);
 }
+
+$(document).ready(function() {
+  $("#owl-demo").owlCarousel({
+      navigation: false, // Show next and prev buttons
+      slideSpeed: 300,
+      paginationSpeed: 400,
+      singleItem: true,
+      autoPlay: true,
+  });
+});
