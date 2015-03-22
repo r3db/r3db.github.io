@@ -33,5 +33,6 @@ function initCarousel() {
       paginationSpeed: 400,
       singleItem: true,
       autoPlay: true,
-  });
+      pagination: true,
+  	});
 }
