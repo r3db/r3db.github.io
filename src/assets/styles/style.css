@@ -78,7 +78,7 @@ a,a:hover {
 /* Carousel */
 /* =============================================================== */
 
-#owl-demo .item img {
+#owl-carousel .item img {
     display: block;
     width: 100%;
 }

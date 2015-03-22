@@ -20,7 +20,7 @@ function fixContentPadding() {
 }
 
 function initCarousel() {
-	$("#owl-demo").owlCarousel({
+	$("#owl-carousel").owlCarousel({
       navigation: false,
       slideSpeed: 300,
       paginationSpeed: 400,
