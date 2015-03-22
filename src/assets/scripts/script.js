@@ -17,7 +17,7 @@ function fixContentPadding() {
 		? 20
 		: 30;
 
-	$('.content').css('padding-top', height_top);
+	$('.content').css('padding-top', height_top + 5);
 	$('.page-content').css('padding-bottom', height_bottom + padding_bottom);
 }
 
