@@ -8,6 +8,7 @@ $(window).resize(function() {
 });
 
 function fixContentPadding() {
+	var height_top = $('#top-nav').height();
 	var height_bottom = $('.footer').height();
 	var width = $( document ).width();
 	var threshold = 767;
@@ -16,6 +17,7 @@ function fixContentPadding() {
 		? 20
 		: 30;
 
+	$('.content').css('padding-top', height_top);
 	$('.page-content').css('padding-bottom', height_bottom + padding_bottom);
 }
 
