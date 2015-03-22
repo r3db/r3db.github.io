@@ -1,12 +1,13 @@
 $(document).ready(function() {
-	fix_content_padding();
+	fixContentPadding();
+	initCarousel();
 });
 
 $(window).resize(function() {
-	fix_content_padding();
+	fixContentPadding();
 });
 
-function fix_content_padding() {
+function fixContentPadding() {
 	var height_top = $('#top-nav').height();
 	var height_bottom = $('.footer').height();
 	var width = $( document ).width();
@@ -25,12 +26,12 @@ function fix_content_padding() {
 	e.css('padding-bottom', height_bottom + padding_bottom);
 }
 
-$(document).ready(function() {
-  $("#owl-demo").owlCarousel({
-      navigation: false, // Show next and prev buttons
+function initCarousel() {
+	$("#owl-demo").owlCarousel({
+      navigation: false,
       slideSpeed: 300,
       paginationSpeed: 400,
       singleItem: true,
       autoPlay: true,
   });
-});
+}
