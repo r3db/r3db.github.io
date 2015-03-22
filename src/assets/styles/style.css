@@ -78,9 +78,21 @@ a,a:hover {
 /* Carousel */
 /* =============================================================== */
 
-#owl-carousel .item img {
+#owl-carousel .carousel-content-background {
     display: block;
-    width: 100%;
+}
+
+#owl-carousel .carousel-content-container-wrapper {
+    position:relative;
+}
+
+#owl-carousel .carousel-content-container {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: white;
+    font-size: 20px;
 }
 
 /* Footer */
