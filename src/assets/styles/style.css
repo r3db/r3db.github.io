@@ -82,6 +82,7 @@ a,a:hover {
 	background: #f8f8f8;
 	border-top: 1px solid #e7e7e7;
 	padding: 20px;
+	padding-bottom: 10px;
 }
 
 .footer-brand {
@@ -156,6 +157,7 @@ a,a:hover {
 	.navbar-brand { padding: 7px; }
 	.navbar-brand img { height: 37px; }
 	.navbar-toggle { margin-top: 15px; }
+	.footer { padding-bottom: 0px; }
 	.footer-column-link { font-size: 11px; }
 	.footer-hide { display: none; }
 }
