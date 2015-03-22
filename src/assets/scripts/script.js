@@ -8,22 +8,15 @@ $(window).resize(function() {
 });
 
 function fixContentPadding() {
-	var height_top = $('#top-nav').height();
 	var height_bottom = $('.footer').height();
 	var width = $( document ).width();
 	var threshold = 767;
 
-	var padding_top = width <= threshold
-		? 0
-		: 0;
-
 	var padding_bottom = width <= threshold
-		? 30
-		: 40;
+		? 20
+		: 30;
 
-	var e = $('.content');
-	e.css('padding-top', height_top + padding_top);
-	e.css('padding-bottom', height_bottom + padding_bottom);
+	$('.page-content').css('padding-bottom', height_bottom + padding_bottom);
 }
 
 function initCarousel() {

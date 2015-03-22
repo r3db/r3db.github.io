@@ -69,6 +69,12 @@ a,a:hover {
 	padding-right: 0px;
 }
 
+.page-content {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 /* Carousel */
 /* =============================================================== */
 
