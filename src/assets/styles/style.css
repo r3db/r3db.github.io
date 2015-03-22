@@ -65,10 +65,22 @@ a,a:hover {
 /* =============================================================== */
 
 .content {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.page-content {
+	padding-top: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+/* Carousel */
+/* =============================================================== */
+
+#owl-demo .item img {
+    display: block;
+    width: 100%;
 }
 
 /* Footer */
@@ -149,12 +161,12 @@ a,a:hover {
 @media (max-width: 767px) {
 	/* Generic */
 	/* =============================================================== */
-	body{ font:300 14px/14px Roboto,Arial,Helvetica; }
+	body { font:300 14px/14px Roboto,Arial,Helvetica; }
 
 	/* Header */
 	/* =============================================================== */
 	.navbar-nav > li > a { line-height: 1em; }	
-	.navbar-brand { padding: 7px; }
+	.navbar-brand { padding: 7px; padding-left: 35px; }
 	.navbar-brand img { height: 37px; }
 	.navbar-toggle { margin-top: 15px; }
 	.footer { padding-bottom: 0px; }
