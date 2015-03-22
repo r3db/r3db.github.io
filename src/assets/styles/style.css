@@ -72,10 +72,9 @@ a,a:hover {
 /* Carousel */
 /* =============================================================== */
 
-#owl-demo .item {
+#owl-demo .item img {
     display: block;
     width: 100%;
-    height: 520px;
 }
 
 /* Footer */
@@ -148,7 +147,6 @@ a,a:hover {
 	/* =============================================================== */
 	.navbar-brand { padding-top: 11px; }
 	.navbar-brand img { height: 47px; margin-top: 6px; padding-top: 8px }
-	#owl-demo .item { height: 420px; }
 }
 
 @media (max-width: 900px) {
@@ -165,7 +163,6 @@ a,a:hover {
 	.navbar-brand { padding: 7px; padding-left: 35px; }
 	.navbar-brand img { height: 37px; }
 	.navbar-toggle { margin-top: 15px; }
-	#owl-demo .item { height: 320px; }
 	.footer { padding-bottom: 0px; }
 	.footer-column-link { font-size: 11px; }
 	.footer-hide { display: none; }
