@@ -113,11 +113,15 @@ a,a:hover {
 #owl-carousel .carousel-content-container-item h2 {
 	font: 600 5em Roboto,Arial,Helvetica;
 	margin-top: -70px;
+	-webkit-animation-duration: 1.0s;
+    animation-duration: 1.0s;
 }
 
 #owl-carousel .carousel-content-container-item p {
 	font: 100 2em Roboto,Arial,Helvetica;
 	text-shadow: 0px 1px 20px rgba(0,0,0,.6);
+	-webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s;
 }
 
 /* Footer */
