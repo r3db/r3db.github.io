@@ -80,6 +80,7 @@ a,a:hover {
 
 #owl-carousel .carousel-content-background {
     display: block;
+    width: 100%;
 }
 
 #owl-carousel .carousel-content-container-wrapper {
