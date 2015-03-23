@@ -29,5 +29,15 @@ function initCarousel() {
       singleItem: true,
       autoPlay: true,
       pagination: true,
+      afterMove : moved,
   	});
+
+  	function moved() {
+  		console.log(this.owl.currentItem);
+  		$('[data-index="' + this.owl.currentItem + '"] [data-animation]').each(function(i, element) {
+  			var e = $(element);
+  			var className = e.attr("data-animation");
+  			e.toggleClass(className);
+  		});
+  	}
 }
