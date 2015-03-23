@@ -22,6 +22,9 @@ function fixContentPadding() {
 }
 
 function initCarousel() {
+	var attributeName = 'data-animation';
+  	var attributeNotation = '[' + attributeName + ']';
+
 	$("#owl-carousel").owlCarousel({
       navigation: false,
       slideSpeed: 300,
@@ -32,12 +35,33 @@ function initCarousel() {
       afterMove : moved,
   	});
 
+  	clearAnimations();
+  	activateAnimation(0);
+
   	function moved() {
-  		console.log(this.owl.currentItem);
-  		$('[data-index="' + this.owl.currentItem + '"] [data-animation]').each(function(i, element) {
+  		clearAnimations();
+  		activateAnimation(this.owl.currentItem);
+  	}
+
+  	function clearAnimations() {
+  		$(attributeNotation).each(function(i, element) {
   			var e = $(element);
-  			var className = e.attr("data-animation");
-  			e.toggleClass(className);
+  			e.hide();
+  			e.removeClass(e.attr(attributeName));
+  		});
+  	}
+
+  	function activateAnimation(index) {
+  		$('[data-index="' + index + '"] ' + attributeNotation).each(function(i, element) {
+  			var e = $(element);
+  			var className = e.attr(attributeName);
+
+  			if (className == undefined) {
+  				return;
+  			}
+
+  			e.show();
+  			e.addClass(className);
   		});
   	}
 }
