@@ -124,6 +124,31 @@ a,a:hover {
     animation-duration: 0.9s;
 }
 
+/* Home Page Content */
+/* =============================================================== */
+
+#home-page-content {
+	font: 300 16px/16px Roboto,Arial,Helvetica;
+	color: #333;
+	padding-bottom: 80px;
+}
+
+#home-page-content .column {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#home-page-content h4 {
+	font: 300 1.5em Roboto,Arial,Helvetica;
+	margin-bottom: 1em;
+}
+
+#home-page-content p {
+	font-size:1em;
+	line-height: 1.7em;
+	margin-bottom: 1.7em;
+}
+
 /* Footer */
 /* =============================================================== */
 
@@ -241,6 +266,20 @@ a,a:hover {
 
 	#owl-carousel .carousel-content-container-item p {
 		font-size: 0.8em;
+	}
+
+	/* Home Page Content */
+	/* =============================================================== */
+	#home-page-content {
+		padding-bottom: 50px;
+	}
+
+	#home-page-content h4 {
+		font-size: 1.1em;
+	}
+
+	#home-page-content p {
+		font-size: 0.9em;
 	}
 
 	/* Footer */
