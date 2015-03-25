@@ -135,7 +135,7 @@ a,a:hover {
 #home-page-content {
 	font: 300 16px/16px Roboto,Arial,Helvetica;
 	color: #333;
-	padding-bottom: 80px;
+	padding-bottom: 50px;
 }
 
 #home-page-content .column {
@@ -276,7 +276,7 @@ a,a:hover {
 	/* Home Page Content */
 	/* =============================================================== */
 	#home-page-content {
-		padding-bottom: 50px;
+		padding-bottom: 20px;
 	}
 
 	#home-page-content h4 {
