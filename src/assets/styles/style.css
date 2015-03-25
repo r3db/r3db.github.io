@@ -110,6 +110,11 @@ a,a:hover {
 	top: 50%;
 }
 
+#owl-carousel .carousel-content-container-item a {
+	color: #fff;
+	text-decoration: none;
+}
+
 #owl-carousel .carousel-content-container-item h2 {
 	font: 600 4.3em Roboto,Arial,Helvetica;
 	margin-top: -80px;
