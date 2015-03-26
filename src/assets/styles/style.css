@@ -110,6 +110,11 @@ a,a:hover {
 	top: 50%;
 }
 
+#owl-carousel .carousel-content-container-item a {
+	color: #fff;
+	text-decoration: none;
+}
+
 #owl-carousel .carousel-content-container-item h2 {
 	font: 600 4.3em Roboto,Arial,Helvetica;
 	margin-top: -80px;
@@ -130,12 +135,18 @@ a,a:hover {
 #home-page-content {
 	font: 300 16px/16px Roboto,Arial,Helvetica;
 	color: #333;
-	padding-bottom: 80px;
+	padding-bottom: 50px;
 }
 
 #home-page-content .column {
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+#home-page-content .icon {
+	font-size: 28px;
+	padding-right: 12px;
+	color: #666;
 }
 
 #home-page-content h4 {
@@ -271,7 +282,7 @@ a,a:hover {
 	/* Home Page Content */
 	/* =============================================================== */
 	#home-page-content {
-		padding-bottom: 50px;
+		padding-bottom: 20px;
 	}
 
 	#home-page-content h4 {
