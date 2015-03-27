@@ -22,6 +22,7 @@ function loadMap() {
     new window.google.maps.Marker({
         position: latLng,
         map: new window.google.maps.Map($('#map')[0], options),
+        icon: "images/map-pin.png",
     });
 }
 
