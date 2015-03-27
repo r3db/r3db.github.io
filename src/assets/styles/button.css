@@ -1,0 +1,32 @@
+.button {
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 30px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.29);
+	transition: all 0.15s ease;
+	font: 300 1.5em Roboto,Arial,Helvetica;
+	color: #333;
+	padding: 0 40px;
+	padding-top: 10px;
+	height: 49px;
+	background: rgba(241,231,103,1);
+	background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+	background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+}
+
+.button:hover {
+	text-decoration: none;
+	box-shadow: 0px 0px 9px #666;
+}
+
+.button:active {
+	box-shadow: inset 0px 0px 3px rgba(0,0,0, .8);
+	text-decoration: none;
+}
