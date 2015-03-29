@@ -7,7 +7,7 @@
 	padding-bottom: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
-	border-bottom: 1px solid #dadada;
+	border-bottom: 1px dotted #dadada;
 	height: 600px;
 }
 
@@ -17,6 +17,16 @@
 
 .empty-padding .odd {
 	background-color: #f8f8f8;
+}
+
+.product-showcase-item .left-panel {
+	background-color: red;
+	color: white;
+}
+
+.product-showcase-item .right-panel {
+	background-color: green;
+	color: white;
 }
 
 .button-container {
