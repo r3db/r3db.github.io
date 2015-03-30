@@ -1,13 +1,12 @@
 .empty-padding {
 	padding: 0px;
-	padding-top: 100px;
 }
 
 .product-showcase-item {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 150px;
+	padding-bottom: 0px;
 	padding-left: 20px;
-	padding-right: 20px;
+	padding-right: 0px;
 	border-bottom: 1px dotted #dadada;
 }
 
@@ -20,13 +19,20 @@
 }
 
 .product-showcase-item .left-panel {
-	padding-left: 20px;
+	padding-left: 100px;
 	padding-right: 20px;
 }
 
 .product-showcase-item .right-panel {
 	padding-left: 20px;
-	padding-right: 20px;
+}
+
+.product-showcase-item .right-panel img {
+	float: right;
+}
+
+.product-showcase-item .text {
+	padding-top: 40px;
 }
 
 .product-showcase-item .icon {
@@ -49,13 +55,6 @@
 .product-showcase-item h4 {
 	font: 300 1.5em Roboto,Arial,Helvetica;
 	margin-bottom: 1em;
-}
-
-.product-showcase-item .picture-frame {
-	background-color: #fff;
-	padding: 10px;
-	border: 1px solid #dadada;
-	display: inline-table;
 }
 
 .product-showcase-item ul {
