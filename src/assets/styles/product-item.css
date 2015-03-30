@@ -1,0 +1,83 @@
+.empty-padding {
+	padding: 0px;
+	padding-top: 100px;
+}
+
+.product-showcase-item {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 1px dotted #dadada;
+}
+
+.empty-padding .even {
+	background-color: #ffffff;
+}
+
+.empty-padding .odd {
+	background-color: #f8f8f8;
+}
+
+.product-showcase-item .left-panel {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.product-showcase-item .right-panel {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.product-showcase-item .icon {
+	font-size: 28px;
+	padding-right: 12px;
+	color: #666;
+}
+
+.product-showcase-item .carousel-content-container-horizontal {
+	text-align: center;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.product-showcase-item .carousel-content-container-vertical {
+	position: relative;
+	top: 50%;
+}
+
+.product-showcase-item h4 {
+	font: 300 1.5em Roboto,Arial,Helvetica;
+	margin-bottom: 1em;
+}
+
+.product-showcase-item .picture-frame {
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #dadada;
+	display: inline-table;
+}
+
+.product-showcase-item ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+
+.product-showcase-item li {
+ 	padding-left: 1em;
+ 	padding-top: 4px;
+ 	padding-bottom: 4px;
+}
+
+.product-showcase-item li:before {
+	font: normal normal normal 14px/1 FontAwesome;
+  	content: "\f0a3";
+  	padding-right: 5px;
+}
+
+.button-container {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
