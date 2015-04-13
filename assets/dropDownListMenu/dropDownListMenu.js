@@ -1,6 +1,6 @@
 ﻿function DropDown(el) {
     this.dd = el;
-    this.placeholder = this.dd.children('span');
+    this.placeholder = this.dd.children('a');
     this.opts = this.dd.find('ul.dropdown > li');
     this.val = '';
     this.index = -1;
@@ -10,12 +10,12 @@ DropDown.prototype = {
     initEvents : function() {
         var obj = this;
 
-        obj.dd.on('click', function(event){
+        obj.dd.on('click', function () {
             $(this).toggleClass('active');
             return false;
         });
 
-        obj.opts.on('click',function(){
+        obj.opts.on('click', function () {
             var opt = $(this);
             obj.val = opt.text();
             obj.index = opt.index();
@@ -32,11 +32,12 @@ DropDown.prototype = {
 
 $(function() {
 
-    var dd = new DropDown( $('#dd') );
+    var dd = new DropDown($('#dd'));
 
-    $(document).click(function() {
+    $(document).click(function () {
         // all dropdowns
         $('.wrapper-dropdown-3').removeClass('active');
     });
+
 
 });
