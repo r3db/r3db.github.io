@@ -1,43 +1,21 @@
-﻿function DropDown(el) {
-    this.dd = el;
-    this.placeholder = this.dd.children('a');
-    this.opts = this.dd.find('ul.dropdown > li');
-    this.val = '';
-    this.index = -1;
-    this.initEvents();
-}
-DropDown.prototype = {
-    initEvents : function() {
-        var obj = this;
+﻿$(function() {
 
-        obj.dd.on('click', function () {
-            $(this).toggleClass('active');
-            return false;
-        });
+    //$('#dd').hover(
+    //    function() {
+    //        $('#dd').addClass('active');
+    //    },
 
-        obj.opts.on('click', function () {
-            var opt = $(this);
-            obj.val = opt.text();
-            obj.index = opt.index();
-            obj.placeholder.text(obj.val);
-        });
-    },
-    getValue : function() {
-        return this.val;
-    },
-    getIndex : function() {
-        return this.index;
-    }
-}
+    //    function () {
+    //        //('#dd').removeClass('active');
+    //});
 
-$(function() {
+    //$('.ddstyle').hover(
+    //  function () {
+    //      $('#dd').addClass('active');
+    //  },
 
-    var dd = new DropDown($('#dd'));
-
-    $(document).click(function () {
-        // all dropdowns
-        $('.wrapper-dropdown-3').removeClass('active');
-    });
-
+    // function () {
+    //      $('#dd').removeClass('active');
+    //  });
 
 });
