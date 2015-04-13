@@ -2,12 +2,15 @@
     width: 120px;
     padding-left: 0px;
 }
+
 ul li a {
     display: block;
 }
+
 ul li ul{
     display: none;
 }
+
 ul li:hover ul{
     display: block; /* display the dropdown */
 }
@@ -20,6 +23,7 @@ ul li:hover ul{
     cursor: pointer;
     outline: none;
 }
+
 .wrapper-dropdown-3 > a {
     color: #777777;
     text-decoration: none;  
@@ -33,7 +37,6 @@ ul li:hover ul{
     right: 15px;
     top: 50%;
     margin-top: -3px;
-
 }
 
 .wrapper-dropdown-3 .dropdown {
@@ -55,10 +58,6 @@ ul li:hover ul{
     -o-transition: all 0.5s ease-in;
     transition: all 0.5s ease-in;
     list-style: none;
-
-    /* Hiding */
-   
-
 }
 
 .wrapper-dropdown-3 .dropdown:after {
@@ -117,10 +116,4 @@ ul li:hover ul{
 
 .wrapper-dropdown-3 .dropdown li:hover a {
     background: #f3f8f8;
-}
-
-/* Active state */
-
-.wrapper-dropdown-3.active .dropdown {
-
 }
