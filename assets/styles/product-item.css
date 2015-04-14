@@ -84,3 +84,39 @@
 .row {
     margin-right: 0px;
 }
+
+.product-img-1 {
+    background: url("../../images/product-cad-processing/001.png");
+    background-repeat:no-repeat;
+    background-position:fixed;
+}
+
+.product-img-2 {
+    background: url("../../images/product-cad-processing/002.png");
+    background-repeat:no-repeat;
+    background-position:fixed;
+}
+
+.product-img-3 {
+    background: url("../../images/product-cad-processing/003.png");
+    background-repeat:no-repeat;
+    background-position:fixed;
+}
+
+.row-full-height {
+  height: 100%;
+}
+.col-full-height {
+  height: 100%;
+  vertical-align: middle;
+}
+.row-same-height {
+  display: table;
+  width: 100%;
+  /* fix overflow */
+  table-layout: fixed;
+}
+.col-xs-height {
+  display: table-cell;
+  float: none !important;
+}
