@@ -45,6 +45,7 @@ ul li:hover ul{
     top: 100%;
     left: 0;
     right: 0;
+    z-index: 10;
 
     /* Styles */
     background: white;
@@ -116,4 +117,29 @@ ul li:hover ul{
 
 .wrapper-dropdown-3 .dropdown li:hover a {
     background: #f3f8f8;
+}
+
+@media (max-width: 767px) {
+
+    .wrapper-dropdown-3 .dropdown {
+        /* Size & position */
+        position: absolute;
+        top: -45px;
+        left: 80px;
+        right: 0px;
+    }
+
+    .wrapper-dropdown-3 .dropdown:after {
+        top: 20px;
+        right: 118px;
+        border-width: 6px 6px 6px 0px;
+        border-color: transparent #fff ;    
+    }
+
+    .wrapper-dropdown-3 .dropdown:before {    
+        top: 19px;
+        right: 118px;
+        border-width: 8px 8px 8px 0px;
+        border-color: transparent rgba(0,0,0,0.1) ;    
+    }
 }
