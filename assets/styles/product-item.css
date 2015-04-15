@@ -114,7 +114,7 @@
   display: table;
   width: 100%;
   /* fix overflow */
-  table-layout: fixed;
+
 }
 .col-xs-height {
   display: table-cell;
@@ -124,5 +124,11 @@
 @media (max-width: 1250px) {
     .text {
         width: 450px;
+    }
+}
+
+@media (min-width: 767px) {
+    .row-same-height {
+        table-layout: fixed;
     }
 }
