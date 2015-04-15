@@ -132,3 +132,12 @@
         table-layout: fixed;
     }
 }
+
+@media (max-width: 767px) {
+    .product-showcase-item .left-panel {
+      padding-left: 10px;
+    }
+    .text {
+        width: 300px;
+    }
+}
