@@ -140,10 +140,16 @@
     .text {
         width: 300px;
     }
+    .product-showcase-item {
+        padding-top: 100px;
+    }
 }
 
 @media (max-width: 450px) {
     .right-panel {
         display: none;
+    }
+    .product-showcase-item {
+        padding-top: 20px;
     }
 }
