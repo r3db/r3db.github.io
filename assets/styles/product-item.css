@@ -141,3 +141,9 @@
         width: 300px;
     }
 }
+
+@media (max-width: 450px) {
+    .right-panel {
+        display: none;
+    }
+}
