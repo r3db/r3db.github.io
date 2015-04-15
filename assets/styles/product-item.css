@@ -120,3 +120,9 @@
   display: table-cell;
   float: none !important;
 }
+
+@media (max-width: 1250px) {
+    .text {
+        width: 450px;
+    }
+}
