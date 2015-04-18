@@ -20,7 +20,7 @@
 
 .product-showcase-item .left-panel {
 	padding-left: 100px;
-	padding-right: 20px;
+
 }
 
 .product-showcase-item .right-panel {
@@ -79,4 +79,105 @@
 .button-container {
 	padding-top: 100px;
 	padding-bottom: 100px;
+}
+
+.row {
+    margin-right: 0px;
+}
+
+.product-img-1 {
+    background: url("../../images/product-cad-processing/001.png");
+    background-repeat:no-repeat;
+    background-position:fixed;
+    background-size: cover;
+}
+
+.product-img-2 {
+    background: url("../../images/product-cad-processing/002.png");
+    background-repeat:no-repeat;
+    background-position:fixed;
+    background-size: cover;
+}
+
+.product-img-3 {
+    background: url("../../images/product-cad-processing/003.png");
+    background-repeat:no-repeat;
+    background-position:fixed;
+    background-size: cover;
+}
+
+.row-full-height {
+  height: 100%;
+}
+
+.col-full-height {
+  height: 100%;
+  vertical-align: middle;
+}
+
+.row-same-height {
+  display: table;
+  width: 100%;
+}
+
+.col-xs-height {
+  display: table-cell;
+  float: none !important;
+}
+
+@media (max-width: 1500px) {
+    .text { width: 450px; }
+}
+
+@media (min-width: 768px) {
+    .row-same-height { table-layout: fixed; }
+}
+
+@media (max-width: 530px) {
+    .product-showcase-item .left-panel { padding-left: 20px; }
+    .text {  width: 300px; }
+    .product-showcase-item { padding-top: 100px; }
+}
+
+@media (max-width: 980px) {
+    .bottom-image {
+        position: relative !important;
+        height: 400px;
+        width: 2000px;
+    }
+
+    .right-panel {
+        display: none;
+    }
+
+    .left-panel {
+        width: 100%;
+    }
+
+    .product-showcase-item {
+        padding-right: 0px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 980px) and (min-width: 421px){
+    .product-text {
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 980px) {
+    .bottom-image { display: none; }
+}
+
+@media (max-width: 420px) {
+    .product-text {
+        padding-left: 0px;
+        min-width: 300px;
+        padding-bottom: 10px;
+    }
+
+    .product-showcase-item { padding-left: 0px;}
 }
