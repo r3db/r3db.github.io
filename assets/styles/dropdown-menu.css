@@ -1,4 +1,12 @@
-﻿.wrapper-dropdown .ddstyle {
+﻿.navbar-collapse ul li ul {
+    display: none;
+}
+
+.navbar-collapse ul li:hover ul {
+    display: block;
+}
+
+.wrapper-dropdown .ddstyle {
     width: 280px;
     padding-left: 0px;
 }
@@ -14,18 +22,6 @@
 
 .wrapper-dropdown ul li:last-child {
     padding-bottom: 10px;
-}
-
-.wrapper-dropdown ul li a {
-    display: block;
-}
-
-.wrapper-dropdown ul li ul {
-    display: none;
-}
-
-.wrapper-dropdown ul li:hover ul {
-    display: block;
 }
 
 .wrapper-dropdown {
@@ -52,7 +48,7 @@
 
 .wrapper-dropdown .icon {
     float: left !important;
-    padding-right: 10px;"
+    padding-right: 10px;
 }
 
 .wrapper-dropdown .dropdown {
@@ -130,15 +126,19 @@
 
     .wrapper-dropdown .dropdown:after {
         top: 20px;
-        right: 178px;
+        left: -6px;
         border-width: 6px 6px 6px 0px;
         border-color: transparent #fff ;    
     }
 
     .wrapper-dropdown .dropdown:before {    
-        top: 19px;
-        right: 178px;
+        top: 18px;
+        left: -8px;
         border-width: 8px 8px 8px 0px;
         border-color: transparent rgba(0,0,0,0.1) ;    
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        overflow: initial;
     }
 }
