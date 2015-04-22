@@ -392,14 +392,10 @@ a, a:hover {
 }
 
 @media (min-width: 768px) {
-    .container {
-        width: 730px;
-    }
+    .container {  width: 730px; }
 }
 
 @media (min-width: 992px) {
-    .container {
-        width: 950px;
-    }
+    .container { width: 950px; }
 }
 
